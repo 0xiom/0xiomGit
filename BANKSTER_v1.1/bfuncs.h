@@ -5,6 +5,6 @@
 extern int sel1;
 extern char sel2;
 
-//Explain these declarations
+//Function declarations; more information in bfuncs.cpp
 void mainMenu();
 int yesNo();

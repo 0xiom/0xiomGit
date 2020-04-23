@@ -3,9 +3,11 @@
 #include <string>
 #include "bfuncs.h"
 
+//sel1 is seeking integers for selection input, sel2 is seeking characters for selection input
 int sel1 = 0;
 char sel2 = '0';
 
+//Function adds new line and clears back to main menu, comment in body is for smarter functionality eventually
 void mainMenu()
 { 
 
@@ -15,6 +17,7 @@ void mainMenu()
 
 }
 
+//Logic for "Return to Main Menu? Y/N" interactions, comment in body for smarter functionality eventually
 int yesNo()
 {
  while(true)
